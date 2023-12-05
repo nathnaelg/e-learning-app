@@ -33,6 +33,32 @@ const styles = StyleSheet.create ({
       gap:10,
       alignItems: 'center',
     },
+
+    searchContainer:{
+      padding:3,
+      backgroundColor: Colors.WHITE,
+      width:350,
+      display:'flex',
+      flexDirection: 'row',
+      borderRadius:99,
+      justifyContent: 'space-between',
+      marginTop:40,
+
+      
+    },
+    searchTxt:{
+     fontFamily:'outfit-Light',
+    marginLeft:50,
+     fontSize: 20,
+    },
+
+    title:{
+      fontFamily: 'outfit-Bold',
+      color:Colors.WHITE,
+      fontSize:30,
+      marginTop:50
+
+    }
   })
 
 export default styles;
